@@ -30,7 +30,7 @@ spring:
     cache: false
     check-template-location: true
     prefix: classpath:templates/
-    suffix: html
+    suffix: .html
 
   servlet:
     multipart:
