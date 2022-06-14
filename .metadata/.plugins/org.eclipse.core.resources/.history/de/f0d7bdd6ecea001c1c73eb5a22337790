@@ -13,11 +13,9 @@ spring:
 # log4jdbc
       jdbc-url: jdbc:log4jdbc:tibero:thin:@112.169.69.112:8629:tibero
       driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-      #username: digital
-      #password: digital1234
-      username: digital_dev
-      password: tibero
-      
+      username: digital
+      password: digital1234
+
 # Ongdalsaem
   small:
     datasource:
