@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="port"/>
+		<item key="selection" value="planGrid"/>
 		<list key="findhistory">
+			<item value="planGrid"/>
+			<item value="분석 계획 등록"/>
+			<item value="regist_analysis"/>
 			<item value="port"/>
 			<item value="spring.thymeleaf.prefix"/>
 			<item value="THYMELEAF"/>
