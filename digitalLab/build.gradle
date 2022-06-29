@@ -43,7 +43,8 @@ dependencies
 	implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 	
 	// tibero
-	implementation files('libs/tibero5-jdbc.jar')
+	//implementation files('libs/tibero5-jdbc.jar')
+	implementation files('libs/tibero6-jdbc.jar')
 	
 	// aria
 	implementation files('libs/DestinyEncryptAria_RDA.jar')
@@ -58,8 +59,6 @@ dependencies
 	
 	// log4jdbc log
     implementation group: 'org.bgee.log4jdbc-log4j2', name: 'log4jdbc-log4j2-jdbc4.1', version: '1.16'
-    //implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.17.0'
-	//implementation group: 'org.apache.logging.log4j', name: 'log4j-to-slf4j', version: '2.17.0'
 
     implementation group: 'org.apache.axis', name: 'axis', version: '1.4'
 

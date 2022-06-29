@@ -22,7 +22,7 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public Users login(String account) {
-    	
+    	System.out.println("account : "+account);
         String decryptName = Cipher.ariaDecoding(account);
         
         // 옹달샘 연동 부분
@@ -39,7 +39,7 @@ public class LoginServiceImpl implements LoginService {
         	
         	System.out.println("옹달샘 로그인");
         	user = rdaMapper.selectUserByAccount(decryptName);
-        }
+        }	
         
         if(user == null){
         	System.out.println("유저 데이터가 존재하지 않습니다.");

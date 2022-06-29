@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="kr.go.rda.atis.wsdl.prj.prjinfo.PrjInfoProxy"/>
+    <fullyQualifiedTypeName name="com.digitalLab.atis.prjdtlinfo.PrjDtlInfoVo"/>
+    <fullyQualifiedTypeName name="javax.xml.namespace.QName"/>
+</qualifiedTypeNameHistroy>

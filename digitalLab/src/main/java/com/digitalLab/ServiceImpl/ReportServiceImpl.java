@@ -197,7 +197,9 @@ public class ReportServiceImpl implements ReportService {
 		 * 아이디 패스워드 입력부분
 		 ********************/
 		prjDtlInfoVo.setSysId(sysId);
+		System.out.println("sysId : "+sysId);
 		prjDtlInfoVo.setSysPwd(sysPwd);
+		System.out.println("sysPwd : "+sysPwd);
 		prjDtlInfoVo.setFindRowPerPage(100); // 뷰 카운트
 		prjDtlInfoVo.setFindPrtcpMpDicCode(dic_code);
 		/*******************
@@ -213,7 +215,7 @@ public class ReportServiceImpl implements ReportService {
 			HashMap mp = new HashMap();
 			System.out.println(prjDtlInfoVo.getPrjDtlInfoList().length);
 			for (int i = 0; i < prjDtlInfoVo.getPrjDtlInfoList().length; i++) {
-				System.out.println("==============getPrjInfoList" + i + "=" + prjDtlInfoVo.getPrjDtlInfoList()[i]);
+				//System.out.println("==============getPrjInfoList" + i + "=" + prjDtlInfoVo.getPrjDtlInfoList()[i]);
 //				if(1 == i){
 //					mp.putAll((HashMap)prjDtlInfoVo.getPrjDtlInfoList()[i]) ;
 //				}

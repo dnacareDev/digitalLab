@@ -68,10 +68,25 @@ public class UserServiceImpl implements UserService {
 		Users checkUser = usersMapper.getUser(rdaUser.getAccount());
 		
 		if(checkUser != null) {
-			System.out.println("업데이트");
+			System.out.println("업데이트사용자");
 			usersMapper.updateUser(rdaUser);
 			
-			checkUser = usersMapper.getUser(rdaUser.getAccount());
+			//checkUser = usersMapper.getUser(rdaUser.getAccount());
+			
+			try {
+				if(rdaUser.getAccount().equals("admin01") || rdaUser.getAccount().equals("user01") || rdaUser.getAccount().equals("user02")) {					
+					reportService.addPrjDtl(rdaUser.getDigitalCode());
+					System.out.println("과제등록1");
+					
+				}else {
+					reportService.addPrjDtl(rdaUser.getDigitalCode());
+					System.out.println("과제등록2");
+				}
+			} catch (RemoteException e) {
+				System.out.println("과제 정보를 업데이트 하지 못했습니다");
+			}finally {
+				checkUser = usersMapper.getUser(rdaUser.getAccount());
+			}
 			
 		}else {
 			System.out.println("추가");

@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java/kr/go/rda/atis/wsdl/prj/prjinfo/GetPrjInfo.java=UTF-8
+encoding//src/main/java/kr/go/rda/atis/wsdl/prj/prjinfo/GetPrjInfoResponse.java=UTF-8
+encoding//src/main/java/kr/go/rda/atis/wsdl/prj/prjinfo/PrjInfo.java=UTF-8
+encoding//src/main/java/kr/go/rda/atis/wsdl/prj/prjinfo/PrjInfoService.java=UTF-8
+encoding//src/main/java/kr/go/rda/atis/wsdl/prj/prjinfo/PrjInfoServiceLocator.java=UTF-8
+encoding//src/main/java/kr/go/rda/atis/wsdl/prj/prjinfo/PrjInfoSoapBindingStub.java=UTF-8
+encoding//src/main/java/kr/go/rda/atis/wsdl/prj/prjinfo/PrjInfoVo.java=UTF-8

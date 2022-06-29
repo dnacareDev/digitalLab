@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item key="ShowStatusLine" value="true"/>
-		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=AtisConnTest/C:\/Users\/Administrator\/.p2\/pool\/plugins\/org.apache.axis_1.4.0.v201411182030\/lib\/axis.jar&amp;lt;org.apache.axis.wsdl(WSDL2Java.class[WSDL2Java&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=AtisConnTest/C:\/Users\/Administrator\/.p2\/pool\/plugins\/org.apache.axis_1.4.0.v201411182030\/lib\/axis.jar&amp;lt;org.apache.axis.wsdl.gen(WSDL2.class[WSDL2&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=AtisT/src&amp;lt;kr.go.rda.atis.wsdl.prj.prjinfo{Atest.java[Atest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
 		<section name="DialogBoundsSettings">
 			<item key="DIALOG_HEIGHT" value="500"/>
 			<item key="DIALOG_WIDTH" value="600"/>
