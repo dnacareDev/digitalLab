@@ -110,6 +110,7 @@
 				AND rnd_phase_nm IS NOT NULL
 			</if>
 		</where>
+		order by TOT_RSCH_START_YEAR desc;
 	</select>
 	
 	<!-- 과제 상세보기 -->
