@@ -32,6 +32,16 @@
         #main .card_cont_box .assignment_table tr > th {padding: 0 10px;}
         #main .card_cont_box .assignment_table tr > th label { width: calc(100% - 10px);}
     </style>
+	<script type="text/javascript">
+	   $(document).ready(function(){
+	   $('.card').css('width', $(window).width() - 420 );
+	   //$('.card').css('height', $(window).height() - 500 );
+	   $(window).resize(function() {
+	        $('.card').css('width', $(window).width() - 420 );
+	        //$('.card').css('height', $(window).height() - 500 );
+	   });
+	}); 
+	</script>	    
 </head>
 <body>
     <div id="wrap">

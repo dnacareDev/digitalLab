@@ -57,6 +57,21 @@
             border-bottom: 1px solid #D9D9D9;
         }
     </style>
+	<script type="text/javascript">
+	   $(document).ready(function(){
+	   $('.card').css('width', $(window).width() - 420 );
+	   $('.card_cont_box').css('width', $(window).width() - 480 );
+	   //$('.card').css('height', $(window).height() - 500 );
+	   $(window).resize(function() {
+	        $('.card').css('width', $(window).width() - 420 );
+	        $('.card_cont_box').css('width', $(window).width() - 480 );
+	        //$('.card').css('height', $(window).height() - 500 );
+	   });
+	}); 
+	   
+
+	   
+	</script>	    
 </head>
 <body>
     <div id="wrap">

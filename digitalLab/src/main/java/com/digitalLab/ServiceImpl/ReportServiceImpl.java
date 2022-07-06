@@ -215,7 +215,7 @@ public class ReportServiceImpl implements ReportService {
 			HashMap mp = new HashMap();
 			System.out.println(prjDtlInfoVo.getPrjDtlInfoList().length);
 			for (int i = 0; i < prjDtlInfoVo.getPrjDtlInfoList().length; i++) {
-				//System.out.println("==============getPrjInfoList" + i + "=" + prjDtlInfoVo.getPrjDtlInfoList()[i]);
+				System.out.println("==============getPrjInfoList" + i + "=" + prjDtlInfoVo.getPrjDtlInfoList()[i]);
 //				if(1 == i){
 //					mp.putAll((HashMap)prjDtlInfoVo.getPrjDtlInfoList()[i]) ;
 //				}

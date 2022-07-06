@@ -46,6 +46,16 @@
 
         #main .card .cont_search_box > label {margin-bottom: 0 !important;}
     </style>
+	<script type="text/javascript">
+	   $(document).ready(function(){
+	   $('.card').css('width', $(window).width() - 420 );
+	   //$('.card').css('height', $(window).height() - 500 );
+	   $(window).resize(function() {
+	        $('.card').css('width', $(window).width() - 420 );
+	        //$('.card').css('height', $(window).height() - 500 );
+	   });
+	}); 
+	</script>	    
 </head>
 <body>
     <div id="wrap">

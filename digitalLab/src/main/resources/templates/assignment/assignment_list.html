@@ -26,6 +26,7 @@
 	#main .assignment_sect .card .card_cont_box {
 		overflow-x: auto;
 		padding-bottom: 0;
+		width:100%;
 	}
 
 	#main .card_cont_box .assignment_table {
@@ -49,6 +50,7 @@
 	#wrap #main .card {
 		position: relative;
 		padding-bottom: 100px;
+		width:100%;
 	}
 
 	#wrap #main .card_table_footer {
@@ -56,6 +58,17 @@
 		bottom: 30px;
 	}
 	</style>
+	
+	<script type="text/javascript">
+	   $(document).ready(function(){
+	   $('.card').css('width', $(window).width() - 420 );
+	   //$('.card').css('height', $(window).height() - 500 );
+	   $(window).resize(function() {
+	        $('.card').css('width', $(window).width() - 420 );
+	        //$('.card').css('height', $(window).height() - 500 );
+	   });
+	}); 
+	</script>	
 </head>
 <body>
 	<div id="wrap">
@@ -130,6 +143,8 @@
 	             el: document.getElementById('reportGrid'),
 	             scrollX: true,
 	             scrollY: false,
+	             bodyHeight:"auto",
+	             rowHeight: "auto",
 	             data: list,
 	             rowHeaders: [
 	         	      {
@@ -153,43 +168,37 @@
 	                     "header" : "연구 협약년도",
 	                     "name" : "tot_rsch_start_year",
 	                     sortable: true,
-	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true},
-	                     width : 150
+	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true}
 	                 },
 	                 {
 	                     "header" : "연구개발과제번호",
 	                     "name" : "prj_dtl_no",
 	                     sortable: true,
-	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true},
-	                     width : 180
+	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true}
 	                 },
 	                 {
 	                     "header" : "연구과제명",
 	                     "name" : "prj_nm",
 	                     sortable: true,
-	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true},
-	                     width : 400
+	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true}
 	                 },
 				     {
 	                     "header" : "소속기관",
 	                     "name" : "main_rspr_top_dept_nm",
 	                     sortable: true,
-	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true},
-	                     width : 150
+	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true}
 	                 },
 				     {
-	                     "header" : "과",
+	                     "header" : "소소과",
 	                     "name" : "main_rspr_dept_nm",
 	                     sortable: true,
-	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true},
-	                     width : 150
+	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true}
 	                 },
 				 	 {
 	                     "header" : "연구책임자",
 	                     "name" : "main_rspr_nm",
 	                     sortable: true,
-	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true},
-	                     width : 100
+	                     filter: {type: 'text', showApplyBtn: true, showClearBtn: true}
 	                 }
 	             ]
 

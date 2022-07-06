@@ -31,6 +31,16 @@
 
         #main .cont_footer_btnbox .add_btn_box { margin-left: 0; padding-right: 0;}
     </style>
+	<script type="text/javascript">
+	   $(document).ready(function(){
+	   $('.card').css('width', $(window).width() - 420 );
+	   //$('.card').css('height', $(window).height() - 500 );
+	   $(window).resize(function() {
+	        $('.card').css('width', $(window).width() - 420 );
+	        //$('.card').css('height', $(window).height() - 500 );
+	   });
+	}); 
+	</script>	    
 </head>
 <body>
     <div id="wrap">

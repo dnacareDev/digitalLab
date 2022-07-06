@@ -34,6 +34,17 @@
             text-decoration: underline;
         }
   </style>
+  
+	<script type="text/javascript">
+	   $(document).ready(function(){
+	   $('.card').css('width', $(window).width() - 420 );
+	   //$('.card').css('height', $(window).height() - 500 );
+	   $(window).resize(function() {
+	        $('.card').css('width', $(window).width() - 420 );
+	        //$('.card').css('height', $(window).height() - 500 );
+	   });
+	}); 
+	</script>	  
 </head>
 <body>
     <div id="wrap">
