@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+C:\Users\Administrator\Documents\digitalbreed_2022\digitalLab\.metadata\.plugins\org.eclipse.jdt.core
+1000659285.index
+489046284.index
+2359319128.index
+3196663922.index
+180130406.index
+1820514722.index
+665874820.index
+2006083106.index
+1865797976.index
+3773102095.index
+3028698018.index
